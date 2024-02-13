@@ -1,0 +1,59 @@
+main {
+    
+        .keta {
+            position: absolute;
+            left: 420px;
+        }
+        .zebra {
+            position: absolute;
+            left: 460px;
+            top: 190px;
+        }
+    
+    .right {
+        position: absolute;
+        margin-left: 700px;
+        margin-top: 80px;
+            .one {
+                gap: 10px;
+                display: flex;
+                    div {
+                        width: 7px;
+                        height: 7px;
+                        background-color: black;
+                        transform: rotate(45deg);
+                    }
+            }
+            section {
+                display: flex;
+                    div {
+                        h1 {
+                            color: white;
+                            font-size: 35px;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            margin-top: 10px;
+                        }
+                        h3 {
+                            color: white;
+                        }
+                        div {
+                            width: 210px;
+                            color: white;
+                            margin-top: 10px;
+                        }
+                        button {
+                            width: 131px;
+                            height: 37px;
+                            background-color: orange;
+                            color: white;
+                            margin-top: 15px;
+                            border-radius: 25px;
+                            border: 1px solid;
+                        }
+                    }
+                    .five {
+                        display: flex;
+                    }
+            }
+    }
+}
